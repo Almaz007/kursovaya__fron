@@ -1,0 +1,30 @@
+.card {
+    max-width: 370px;
+    transition: 0.3s all;
+
+    cursor: pointer;
+}
+.card:hover{
+    color: #2447C8;
+}
+.card__img__block {
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: 0.3s all;
+}
+.card:hover .card__img__block {
+    opacity: 0.8;
+}
+
+.card__name {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.44px;
+
+    margin-bottom: 10px;
+}
+.card_description {
+    line-height: 1.5; /* 24px */
+    letter-spacing: 0.16px;
+}

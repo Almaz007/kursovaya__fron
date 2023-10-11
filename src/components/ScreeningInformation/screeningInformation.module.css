@@ -1,0 +1,33 @@
+.movie__data__block {
+   
+}
+.screening__information {
+   
+    display: flex;
+    /* align-items: center; */
+    column-gap: 25px;
+}
+.screening__information .payment__steps {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 40px;
+
+    box-sizing: content-box;
+    max-width: 420px;
+    width: 100%;
+    padding-right: 25px;
+    border-right: 1px solid #F0F0F2;
+}
+.controll__block {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+
+
+
+
+
+

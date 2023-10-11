@@ -1,0 +1,30 @@
+.PromotionsDiscountsSection {
+    padding: 0px 0px 95px;
+}
+
+.title__page__pd {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+.title__page__pd a {
+    transition: 0.3s all;
+}
+.title__page__pd a:hover {
+    color: #0030E2;
+}
+.pages {
+    display: flex;
+    column-gap: 14px;
+    align-items: center;
+}
+.pages button {
+    cursor: pointer;
+    font-size: 20px;
+}
+.cards__block {
+    display: flex;
+}
+.MySwiper .SwiperSlide > div {
+    margin: 0 auto;
+}

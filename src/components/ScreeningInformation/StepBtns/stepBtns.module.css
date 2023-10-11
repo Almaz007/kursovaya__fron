@@ -1,0 +1,77 @@
+.no__active .pay__btn{
+    pointer-events: none;
+    border: 1px solid #9eb2f9;
+    background-color: #9eb2f9;
+}
+.pay__controll {
+    display: flex;
+    align-items: center;
+    column-gap: 17px;
+    justify-content: space-between;
+}
+.pay__btn {
+    cursor: pointer;
+    max-width: 214px;
+    width: 100%;
+    padding: 12px 20px;
+
+    background-color: #0030E2;
+    border: 1px solid #0030E2;
+    border-radius: 5px;
+    text-align: center;
+    color: #FFF;
+    transition: 0.3s all;
+}
+.pay__btn, .result__cost__text, .result__cost {
+    font-family: "Nunito Sans", sans-serif;
+    line-height: 1.45; /* 23.2px */
+    letter-spacing: 0.32px;
+} 
+.pay__btn:hover {
+    border: 1px solid #0030E2;
+    background-color: #fff;
+    color: #0030E2;
+}
+.result__cost__info {
+    display: flex;
+    align-items: center;
+    max-width: 190px;
+    width: 100%;
+    justify-content: space-between;
+}
+.result__cost__text {
+
+}
+.result__cost {
+  font-size: 20px;
+}
+.prev__btn {
+    cursor: pointer;
+    padding: 17px;
+    border-radius: 5px;
+    background-color: #E0E7FF;
+    transition: 0.3s all;
+}
+.icon {
+    width: 20px;
+    height: 20px;
+}
+.prev__btn:hover {
+    background-color: #b1c4ff;
+}
+.next__btn {
+    cursor: pointer;
+    padding: 17px 20px;
+    border-radius: 5px;
+    background-color: #0030E2;
+    border: 1px solid #0030E2;
+    color: #fff;
+    text-align: center;
+    max-width: 340px;
+    width: 100%;
+    transition: 0.3s all;
+}
+.next__btn:hover {
+    background-color: #fff;
+    color: #0030E2;
+}

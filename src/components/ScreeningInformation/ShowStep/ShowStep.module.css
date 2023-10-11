@@ -1,0 +1,48 @@
+.pay__steps {
+    display: flex;
+    column-gap: 10px;
+ }
+ 
+ .step {
+     display: flex;
+     align-items: center;
+     column-gap: 5px;
+     padding: 10px;
+ 
+     max-width: 133px;
+     width: 100%;
+     border-radius: 4px;
+     background-color: #F0F0F2;
+     color:  #88888B;
+     font-size: 13px;
+     line-height: normal;
+     letter-spacing: 0.26px;
+ }
+ .step__icon {
+    width: 18px;
+    height: 18px;
+ }
+
+ .active__step.step {
+     background-color: #E0E7FF;
+     color: #0030E2;
+ }
+ .active__step .sgv__elem {
+    fill: #0030E2;
+    /* stroke: #0030E2; */
+ }
+ .active__step .svg__elem__last {
+    stroke: #0030E2;
+ }
+
+ .prev__step.step {
+    background-color: #E0FFE3;
+    color: #1BC200;
+ }
+ .prev__step .sgv__elem {
+    fill: #1BC200;
+    /* stroke: #0030E2; */
+ }
+ .prev__step .svg__elem__last {
+    stroke: #1BC200;
+ }

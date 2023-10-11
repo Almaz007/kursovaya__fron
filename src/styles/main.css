@@ -1,0 +1,24 @@
+@import './reset.css';
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+body{
+    /* height: 100vh; */
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #000;
+}
+.container {
+    max-width: 1210px;
+    padding: 0px 20px;
+    margin: 0 auto;
+}
+.empy__block {
+    float: bottom;
+}
+
+.section__title {
+    font-size: 26px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.52px;
+}

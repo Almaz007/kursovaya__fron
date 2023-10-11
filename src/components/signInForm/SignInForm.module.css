@@ -1,0 +1,65 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+.signInBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+
+    padding-top: 5px;
+    margin-bottom: 98px;
+}
+
+.form__title {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.44px;
+}
+.form__desc {
+    font-size: 13px;
+    line-height: normal;
+    letter-spacing: 0.26px;
+}
+.input__block label{
+    cursor: text;
+    color: #7B7B7B;
+    font-size: 13px;
+    line-height: normal;
+    letter-spacing: 0.26px;
+}
+.signInInput {
+    width: 100%;
+    padding: 15px 17px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    margin-top: 5px;
+
+    color: #88888B;
+    font-size: 14px;
+    line-height: 1.45; /* 20.3px */
+    letter-spacing: 0.28px;
+    transition: 0.3s ease-in-out;
+}
+.signInInput:focus{
+    border: 1px solid #0030E2;
+    color: #474747;
+}
+.signInButton {
+    cursor: pointer;
+    width: 100%;
+    padding: 17px 17px;
+    text-align: center;
+    color: #fff;
+    background-color: #0030E2;
+    border: 1px solid #0030E2;
+    border-radius: 5px;
+    transition: 0.3s all;
+
+    font-family: 'Nunito+Sans', sans-serif;
+    line-height: 1.45; /* 23.2px */
+    letter-spacing: 0.32px;
+}
+.signInButton:hover {
+    color: #0030E2;
+    background-color: #fff;
+}

@@ -1,0 +1,12 @@
+.nextArrowBlock {
+    width: 22px;
+    height: 22px;
+}
+.nextArrow {
+    fill: #65666C;
+    transition: 0.3s all;
+}
+.nextArrowBlock:hover .nextArrow{
+    fill: #2447C8 !important;
+    transform: translateY(-2px);
+}
